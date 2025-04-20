@@ -1,0 +1,14 @@
+name: delance-runtime
+description: |
+  The language server runtime of delance
+homepage: https://git.sr.ht/~self/delance-runtime
+licenses:
+  - 0BSD
+languages:
+  - PYTHON
+categories:
+  - LSP
+source:
+  id: pkg:npm/@delance/runtime@2025.4.100
+bin:
+  delance-langserver: npm:delance-langserver
